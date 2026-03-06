@@ -169,9 +169,9 @@ Each statement ends with semicolon ( ; )
 Operators perform operations on variables.
 
 # 1. Arithmetic Operators
-- +  Addition
-- -  Subtraction
-- *  Multiplication
++  Addition
+-  Subtraction
+*  Multiplication
 - /  Division
 - %  Modulus
 
