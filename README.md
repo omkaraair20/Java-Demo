@@ -1,7 +1,5 @@
 # Java-Demo
 
-# Module 1
-
 # Introduction of Java
 Java is a high-level, object-oriented programming language used to build web applications, mobile apps, enterprise software, and desktop applications.
 
