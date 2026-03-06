@@ -1,6 +1,6 @@
 # Java-Demo
 
-# Introduction of Java
+# Module 1 : Introduction to Java
 Java is a high-level, object-oriented programming language used to build web applications, mobile apps, enterprise software, and desktop applications.
 
 # Why Java ?
@@ -82,3 +82,27 @@ LTS = Long Term Support
 Example:
 - C++ → platform dependent
 - Java → platform independent
+
+# Module 2 : Introduction To Java Programming Environment
+
+# Step 1: Download Java
+Download Java Development Kit from Oracle Corporation official website.
+
+# Steps:
+- Go to Oracle website
+- Download latest JDK
+- Install it on your system.
+
+# Step 2: Set Environment Path (Windows)
+- Open System Properties
+- Click Advanced System Settings
+- Click Environment Variables
+- In System Variables → select Path
+- Add JDK path
+
+# Example:
+C:\Program Files\Java\jdk-21\bin
+
+Check installation using command prompt:
+java -version
+javac -version
