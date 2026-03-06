@@ -80,6 +80,7 @@ LTS = Long Term Support
 | Portability       | High                           | Limited                  |
 
 Example:
+
 - C++ → platform dependent
 - Java → platform independent
 
@@ -100,7 +101,8 @@ Download Java Development Kit from Oracle Corporation official website.
 - In System Variables → select Path
 - Add JDK path
 
-# Example:
+Example:
+
 C:\Program Files\Java\jdk-21\bin
 
 Check installation using command prompt:
@@ -125,7 +127,8 @@ Java follows specific naming rules and conventions to make code readable.
 | Variable    | camelCase  | `totalMarks`       |
 | Constant    | UPPER_CASE | `MAX_VALUE`        |
 
-# Example
+Example
+
 class StudentData {
     
      int totalMarks;
@@ -158,7 +161,8 @@ Types of Comments
 # 3. Statements
 A statement is a single instruction in Java.
 
-# Example:
+Example:
+
 int a = 10;
 
 System.out.println(a);
@@ -175,7 +179,8 @@ Operators perform operations on variables.
 - /  Division
 - %  Modulus
 
-# Example
+Example
+
 int a = 10;
 int b = 5;
 
@@ -189,7 +194,8 @@ System.out.println(a + b);
 - >=  Greater equal
 - <=  Less equal
 
-# Example
+Example
+
 System.out.println(10 > 5);
 
 # 3. Logical Operators
@@ -197,7 +203,8 @@ System.out.println(10 > 5);
 - ||  OR
 - !   NOT
 
-# Example
+Example
+
 boolean a = true;
 
 boolean b = false;
@@ -211,7 +218,8 @@ System.out.println(a && b);
 - *=
 - /=
 
-# Example
+Example
+
 int a = 10;
 
 a += 5;
@@ -220,7 +228,8 @@ a += 5;
 - ++ increment
 - -- decrement
 
-# Example
+Example
+
 int a = 10;
 
 a++;
@@ -237,7 +246,8 @@ But sometimes we need to:
 
 For this purpose control structures are used.
 
-# Example
+Example
+
 System.out.println("Start");
 
 System.out.println("Learning Java");
@@ -317,7 +327,8 @@ import java.io.*;
 # Arrays :
 Array is a collection of elements of the same data type stored in contiguous memory.
 
-# Example(Array):
+Example(Array):
+
 10 20 30 40 50
 
 # String vs Character Array
@@ -337,7 +348,8 @@ char name[] = {'J','a','v','a'};
 # Accessing Array Elements
 Use index number.
 
-# Example:
+Example:
+
 int arr[] = {10,20,30};
 
 System.out.println(arr[0]);
@@ -345,3 +357,140 @@ System.out.println(arr[0]);
 System.out.println(arr[1]);
 
 System.out.println(arr[2]);
+
+# Module 6: Object-Oriented Programming (OOP) in Java
+
+# 1. Procedural Programming vs Object-Oriented Programming
+| Procedural Programming          | Object-Oriented Programming            |
+| ------------------------------- | -------------------------------------- |
+| Focus on functions              | Focus on objects                       |
+| Program divided into procedures | Program divided into classes & objects |
+| Data is global                  | Data is protected                      |
+| Less secure                     | More secure                            |
+
+# Example Languages
+
+- Procedural → C
+- Object-Oriented → Java, C++, Python
+
+# 2. Top-Down vs Bottom-Up Approach
+| Top-Down Approach              | Bottom-Up Approach          |
+| ------------------------------ | --------------------------- |
+| Start from main problem        | Start from small components |
+| Used in procedural programming | Used in OOP                 |
+| Example: C programming         | Example: Java               |
+
+# 3. Introduction to Object-Oriented Programming
+OOP is a programming concept based on objects and classes.
+
+# Main features
+
+- Abstraction : Abstraction means hiding internal implementation and showing only functionality.
+
+- Encapsulation : Encapsulation means binding data and methods together in a single unit (class).
+
+- Inheritance : Inheritance means one class acquiring properties of another class.
+
+- Polymorphism : Polymorphism means many forms.
+
+# Types
+
+- Compile-time polymorphism (Method Overloading)
+- Runtime polymorphism (Method Overriding)
+
+# Class and Object
+
+# Class
+Class is a blueprint of object.
+
+Example
+
+class Car {
+    String color;
+    int speed;
+}
+
+# Object
+Object is instance of class.
+
+Car c1 = new Car();
+
+# Instance and Static Variables
+
+# Instance Variable
+Belongs to object.
+
+class Demo {
+    int a = 10;   // instance variable
+}
+
+# Static Variable
+Shared by all objects.
+
+class Demo {
+    static int count = 0;
+}
+
+# Constructors
+Constructor is special method used to initialize objects.
+
+# Rules
+- Name must be same as class name
+
+- No return type
+
+- Automatically called when object created
+
+Example
+
+class Student {
+    int id;
+
+    Student() {
+        id = 10;
+    }
+}
+
+# Types of Constructor
+
+1. Default Constructor
+
+Student() {
+}
+
+2. Parameterized Constructor
+
+Student(int i) {
+    id = i;
+}
+
+# this keyword
+this refers to current object.
+
+Example
+
+class Student {
+    int id;
+
+    Student(int id) {
+        this.id = id;
+    }
+}
+
+# Access modifiers
+| Modifier  | Access             |
+| --------- | ------------------ |
+| private   | within class       |
+| default   | within package     |
+| protected | package + subclass |
+| public    | everywhere         |
+
+Example 
+
+class Test {
+    
+    private int a;
+    
+    public int b;
+}
+
