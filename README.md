@@ -224,3 +224,43 @@ a += 5;
 int a = 10;
 
 a++;
+
+# Module 4: Control Structures in Java
+
+# 1. Working with Control Structures
+Control structures are used to control the flow of execution of a program.
+By default, Java executes statements line by line (sequentially).
+
+But sometimes we need to:
+- make decisions
+- repeat tasks multiple times
+- choose different execution paths
+
+For this purpose control structures are used.
+
+# Example
+System.out.println("Start");
+System.out.println("Learning Java");
+System.out.println("End");
+
+This program runs sequentially.
+
+But if we want conditions or loops, we use control structures.
+
+2. Types of Control Structures
+
+There are mainly 3 types of control structures in Java:
+1️⃣ Decision Control Structure
+2️⃣ Repetition (Looping) Control Structure
+3️⃣ Jump Control Structure (break, continue, return)
+
+In your syllabus we focus on Decision + Repetition.
+
+3. Decision Control Structure
+Decision structures are used to execute code based on conditions.
+
+# Types
+- if
+- if–else
+- if–else if
+- switch–case
