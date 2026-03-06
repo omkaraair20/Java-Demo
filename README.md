@@ -147,9 +147,11 @@ Types of Comments
    multi line comment */
 
 3. Documentation Comment
+
 /**
  * This is used for documentation
  */ 
+
 
 # 3. Statements
 A statement is a single instruction in Java.
