@@ -149,7 +149,9 @@ Types of Comments
 3. Documentation Comment
 
 /**
+ 
  * This is used for documentation
+ 
  */ 
 
 
@@ -167,11 +169,11 @@ Each statement ends with semicolon ( ; )
 Operators perform operations on variables.
 
 # 1. Arithmetic Operators
-+  Addition
--  Subtraction
-*  Multiplication
-/  Division
-%  Modulus
+- +  Addition
+- -  Subtraction
+- *  Multiplication
+- /  Division
+- %  Modulus
 
 # Example
 int a = 10;
@@ -180,20 +182,20 @@ int b = 5;
 System.out.println(a + b);
 
 # 2. Relational Operators
-==  Equal
-!=  Not equal
->   Greater
-<   Less
->=  Greater equal
-<=  Less equal
+- ==  Equal
+- !=  Not equal
+- >   Greater
+- <   Less
+- >=  Greater equal
+- <=  Less equal
 
 # Example
 System.out.println(10 > 5);
 
 # 3. Logical Operators
-&&  AND
-||  OR
-!   NOT
+- &&  AND
+- ||  OR
+- !   NOT
 
 # Example
 boolean a = true;
@@ -202,20 +204,22 @@ boolean b = false;
 System.out.println(a && b);
 
 # 4. Assignment Operator
-=  Assign value
-+=
--=
-*=
-/=
+- =  Assign value
+- +=
+- -=
+- *=
+- /=
 
 # Example
 int a = 10;
+
 a += 5;
 
 # 5. Increment / Decrement
-++ increment
--- decrement
+- ++ increment
+- -- decrement
 
 # Example
 int a = 10;
+
 a++;
