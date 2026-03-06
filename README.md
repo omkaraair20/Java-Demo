@@ -106,3 +106,52 @@ C:\Program Files\Java\jdk-21\bin
 Check installation using command prompt:
 - java -version
 - javac -version
+
+# Module 3: Fundamentals of Java Programming
+
+# 1. Naming Convention of Java Language
+Java follows specific naming rules and conventions to make code readable.
+
+# Rules
+- Names can contain letters, digits, _ and $
+- Cannot start with a number
+- Cannot use Java keywords
+
+# Conventions
+| Element     | Convention | Example            |
+| ----------- | ---------- | ------------------ |
+| Class Name  | PascalCase | `StudentData`      |
+| Method Name | camelCase  | `calculateTotal()` |
+| Variable    | camelCase  | `totalMarks`       |
+| Constant    | UPPER_CASE | `MAX_VALUE`        |
+
+# Example
+class StudentData {
+    int totalMarks;
+}
+
+# 2. Comments
+Comments are used to explain code and are ignored by the compiler.
+
+Types of Comments
+
+1. Single Line Comment
+// This is a single line comment
+
+2. Multi Line Comment
+/* This is
+   multi line comment */
+
+3. Documentation Comment
+/**
+ * This is used for documentation
+ */ 
+
+# 3. Statements
+A statement is a single instruction in Java.
+
+# Example:
+int a = 10;
+System.out.println(a);
+
+Each statement ends with semicolon ( ; )
