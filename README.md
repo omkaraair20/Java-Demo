@@ -138,13 +138,16 @@ Comments are used to explain code and are ignored by the compiler.
 Types of Comments
 
 1. Single Line Comment
+
 // This is a single line comment
 
 2. Multi Line Comment
+
 /* This is
    multi line comment */
 
 3. Documentation Comment
+
 /**
  * This is used for documentation
  */ 
