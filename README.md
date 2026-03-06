@@ -266,3 +266,80 @@ Decision structures are used to execute code based on conditions.
 - if–else
 - if–else if
 - switch–case
+
+# 4. Repetition Control Structure (Loops)
+Loops are used to execute a block of code repeatedly until the condition becomes false.
+
+# Types of loops
+- while loop
+- do-while loop
+- for loop
+
+# Module 5: Input Fundamentals And Datatypes In Java
+
+# 1. Java Program Inputs from Keyboard
+In Java, we often need to take input from the user using the keyboard.
+
+Example:
+User enters name, age, marks etc. Java provides classes to read input such as:
+
+- Scanner
+
+- BufferedReader
+
+# 2. Methods of Keyboard Input
+Java supports multiple methods:
+
+| Method         | Package   | Use          |
+| -------------- | --------- | ------------ |
+| Scanner        | java.util | Easy to use  |
+| BufferedReader | java.io   | Faster       |
+| Console        | java.io   | Secure input |
+
+Most commonly used: Scanner
+
+# 3. Scanner Class
+Scanner reads input from System.in (keyboard).
+
+# Syntax
+
+import java.util.Scanner;
+
+Scanner sc = new Scanner(System.in);
+
+# 4. BufferedReader
+BufferedReader reads input faster than Scanner.
+
+# Syntax
+
+import java.io.*;
+
+# Arrays :
+Array is a collection of elements of the same data type stored in contiguous memory.
+
+# Example(Array):
+10 20 30 40 50
+
+# String vs Character Array
+| Feature | String       | Character Array |
+| ------- | ------------ | --------------- |
+| Class   | String class | Primitive       |
+| Mutable | No           | Yes             |
+| Methods | Many methods | No methods      |
+
+# Example:
+# String
+String name = "Java";
+
+# Character Array
+char name[] = {'J','a','v','a'};
+
+# Accessing Array Elements
+Use index number.
+
+# Example:
+int arr[] = {10,20,30};
+
+System.out.println(arr[0]);
+System.out.println(arr[1]);
+System.out.println(arr[2]);
