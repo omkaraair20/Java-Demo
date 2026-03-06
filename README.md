@@ -127,7 +127,9 @@ Java follows specific naming rules and conventions to make code readable.
 
 # Example
 class StudentData {
-    int totalMarks;
+    
+     int totalMarks;
+
 }
 
 # 2. Comments
@@ -152,6 +154,7 @@ A statement is a single instruction in Java.
 
 # Example:
 int a = 10;
+
 System.out.println(a);
 
 Each statement ends with semicolon ( ; )
