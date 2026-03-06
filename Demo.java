@@ -1,10 +1,12 @@
-package Static;
+package UserDefined;
 
-public class Demo {
-	static {
-        System.out.println("Static block executed");
-    }
+class Student {
+    String name;
+}
+
+public class Demo{
 	public static void main(String[] args) {
-		System.out.println("Main method");
+        Student s = new Student();
+        s.name = "Omkar";
     }
- }
+}
