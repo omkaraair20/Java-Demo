@@ -5,12 +5,12 @@ Java is a high-level, object-oriented programming language used to build web app
 
 # Why Java ?
 Java is popular because:
-Platform Independent – runs on any OS using JVM
-Object-Oriented – supports OOP concepts like class and object
-Secure – used in banking and enterprise applications
-Robust – strong memory management
-Multithreading – multiple tasks can run simultaneously
-Large Community Support
+1. Platform Independent – runs on any OS using JVM
+2. Object-Oriented – supports OOP concepts like class and object
+3. Secure – used in banking and enterprise applications
+4. Robust – strong memory management
+5. Multithreading – multiple tasks can run simultaneously
+6. Large Community Support
 
 # Example uses:
 Web Applications
@@ -104,5 +104,5 @@ Download Java Development Kit from Oracle Corporation official website.
 C:\Program Files\Java\jdk-21\bin
 
 Check installation using command prompt:
-java -version
-javac -version
+- java -version
+- javac -version
