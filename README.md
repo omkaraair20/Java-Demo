@@ -199,6 +199,7 @@ System.out.println(10 > 5);
 
 # Example
 boolean a = true;
+
 boolean b = false;
 
 System.out.println(a && b);
