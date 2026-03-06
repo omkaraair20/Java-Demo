@@ -147,7 +147,6 @@ Types of Comments
    multi line comment */
 
 3. Documentation Comment
-
 /**
  * This is used for documentation
  */ 
